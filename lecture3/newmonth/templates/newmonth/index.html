@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Month</title>
+        <link rel="stylesheet" href="{% static 'newmonth/styles.css' %}">        
+    </head>
+    <body>
+        {% if newmonth %}
+            <h1>YES</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+</html>
